@@ -1,9 +1,53 @@
 body {
-    background-color: #212529;
-    color: #f1f5f9;
+  background-color: #212529;
+  color: #f1f5f9;
 }
 
 .Title {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+}
+
+.ListTask {
+ font-size: 50px;   
+}
+
+.Task {
+  width: 100px;
+  height: 100px;
+}
+
+.TaskStyle {
+  font-family: 'Courier New', Courier, monospace;
+  width: 200px;
+  height: 50px;
+  background-color: #474747;
+  color: #f1f5f9;
+}
+
+::-webkit-scrollbar {
+  background-color: #313539;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f66262;
+}
+
+.ListTask div {
+  display: flex;
+  align-items: center;
+}
+  
+.task-container {
+  display: flex;
+  align-items: center;
+}
+  
+.task-container h6 {
+  margin-right: 600px;
+}
+
+.TextClass {
+  font-family: 'Courier New', Courier, monospace;
 }
