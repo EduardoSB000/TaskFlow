@@ -1,4 +1,9 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #212529;
+    color: #f1f5f9;
+}
+
+.Title {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
